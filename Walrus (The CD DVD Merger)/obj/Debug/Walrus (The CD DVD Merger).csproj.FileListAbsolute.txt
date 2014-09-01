@@ -10,3 +10,9 @@ C:\Users\Андрей\Documents\Visual Studio 2012\Projects\Walrus (The CD DVD M
 C:\Users\User\Documents\Visual Studio 2013\Projects\Walrus--The-CD-DVD-Merger-\Walrus (The CD DVD Merger)\bin\Debug\Walrus (The CD DVD Merger).exe.config
 C:\Users\User\Documents\Visual Studio 2013\Projects\Walrus--The-CD-DVD-Merger-\Walrus (The CD DVD Merger)\obj\Debug\Walrus (The CD DVD Merger).exe
 C:\Users\User\Documents\Visual Studio 2013\Projects\Walrus--The-CD-DVD-Merger-\Walrus (The CD DVD Merger)\obj\Debug\Walrus (The CD DVD Merger).pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\Walrus--The-CD-DVD-Merger-\Walrus (The CD DVD Merger)\bin\Debug\Walrus (The CD DVD Merger).exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\Walrus--The-CD-DVD-Merger-\Walrus (The CD DVD Merger)\bin\Debug\Walrus (The CD DVD Merger).pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\Walrus--The-CD-DVD-Merger-\Walrus (The CD DVD Merger)\obj\Debug\Walrus (The CD DVD Merger).csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\Walrus--The-CD-DVD-Merger-\Walrus (The CD DVD Merger)\obj\Debug\Walrus__The_CD_DVD_Merger_.Form1.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\Walrus--The-CD-DVD-Merger-\Walrus (The CD DVD Merger)\obj\Debug\Walrus__The_CD_DVD_Merger_.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\Walrus--The-CD-DVD-Merger-\Walrus (The CD DVD Merger)\obj\Debug\Walrus (The CD DVD Merger).csproj.GenerateResource.Cache

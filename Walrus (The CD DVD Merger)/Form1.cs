@@ -163,6 +163,7 @@ namespace Walrus__The_CD_DVD_Merger_
                             xml_entry.SetAttribute("name", file_info.Name);
                             xml_entry.SetAttribute("date", file_info.LastWriteTime.Ticks.ToString());
                             is_dir = true;
+                            entry_files.AddRange(Directory.GetFiles(file, "*.*", SearchOption.AllDirectories));
                             break;
                     }
 
@@ -275,7 +276,7 @@ namespace Walrus__The_CD_DVD_Merger_
                             case false:
                                 xml_entry.SetAttribute("md5", hash);
                                 xml_entry.SetAttribute("size", sfile_info.Length.ToString());
-                                //xml_entries.AppendChild(xml_entry);
+                                xml_entries.AppendChild(xml_entry);
                                 break;
                             case true:
                                 xml_file.SetAttribute("name", sfile_info.FullName.Replace(sfile_info.DirectoryName + "\\", ""));
@@ -631,6 +632,8 @@ namespace Walrus__The_CD_DVD_Merger_
                     }
                     
                 }
+                
+
                 XmlElement partition_form1 = xml_control.CreateElement("form1");
                 partition_form1.SetAttribute("offset", "0");
                 partition_form1.SetAttribute("size", master_form1.BaseStream.Length.ToString());

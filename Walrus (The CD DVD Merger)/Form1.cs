@@ -36,6 +36,31 @@ namespace Walrus__The_CD_DVD_Merger_
             }
         }
 
+        class offset_size
+        {
+            public int all_synchro = 0;
+            public int all_synchro_size = 12;
+            public int all_msf = 12;
+            public int all_msf_size = 3;
+            public int all_mode = 15;
+            public int all_edc_size = 4;
+
+            public int mode1_data = 16;
+            public int mode2_data = 24;
+
+            public int mode1_data_size = 2048;
+            public int mode2_form1_data_size = 2048;
+            public int mode2_form2_data_size = 2324;
+
+            public int mode1_edc = 2064;
+            public int mode2_form1_edc = 2072;
+            public int mode2_form2_edc = 2348;
+
+            public int mode2_subheader = 16;
+            public int mode2_subheader_size = 8;
+        }
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             byte[] riff = { 0x52, 0x49, 0x46, 0x46, 0x00, 0x00, 0x00, 0x00, 0x57, 0x41, 0x56, 0x45, 0x66, 0x6d, 0x74, 0x20, 0x10, 0x00, 0x00, 0x00, 0x01, 0x00, 0x02, 0x00, 0x44, 0xac, 0x00, 0x00, 0x10, 0xb1, 0x02, 0x00, 0x04, 0x00, 0x10, 0x00, 0x64, 0x61, 0x74, 0x61, 0x00, 0x00, 0x00, 0x00 };
